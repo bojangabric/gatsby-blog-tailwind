@@ -44,11 +44,11 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:site`,
-          content: `@bojangabric`
+          content: `@${siteMetadata.author.contacts.twitter}`
         },
         {
           name: `twitter:creator`,
-          content: `@bojangabric`
+          content: `@${siteMetadata.author.contacts.twitter}`
         },
         {
           name: `twitter:title`,
