@@ -4,8 +4,6 @@
 
 1.  **Clone the repository**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
-
     ```shell
     git clone https://github.com/bojangabric/gatsby-blog-tailwind
     ```
