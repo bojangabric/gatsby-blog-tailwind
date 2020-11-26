@@ -8,16 +8,15 @@
     git clone https://github.com/bojangabric/gatsby-blog-tailwind
     ```
 
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
+2.  **Navigate into your new site’s directory and start it up**
 
     ```shell
     cd gatsby-blog-tailwind
+    npm install
     gatsby develop
     ```
 
-3.  **Open the source code and start editing!**
+3.  **Open the source code and start editing**
 
     Your site is now running at `http://localhost:8000`!
 
