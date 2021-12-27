@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import Feed from '../components/feed';
 import Pagination from '../components/pagination';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 const IndexTemplate = ({ data, pageContext }) => {
   const { hasNextPage, hasPrevPage, prevPagePath, nextPagePath } = pageContext;
@@ -11,7 +11,7 @@ const IndexTemplate = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <SEO />
+      <Seo />
       <Feed edges={edges} />
       <Pagination
         prevPagePath={prevPagePath}
